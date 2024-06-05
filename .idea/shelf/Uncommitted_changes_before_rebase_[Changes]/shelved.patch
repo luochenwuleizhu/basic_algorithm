@@ -1,0 +1,633 @@
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1676253172490)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1676253172490)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1717554879054)
++++ b/.idea/workspace.xml	(date 1717554879054)
+@@ -0,0 +1,226 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="576d144f-e40b-42e5-8da7-ad793800924e" name="Changes" comment="bubble sort">
++      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/test_project/insertion_sort.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/test_project/percy_test.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/test_project/quick_sort.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/test_project/selection_sort.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/test_project/shell_sort.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/test_project/test_crfs.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/test_project/yaochn_test.log" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/test_project/bubble_sort.py" root0="FORCE_HIGHLIGHTING" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProjectId" id="2LfD5yDSlodlT9fRjChEDgNrFeF" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/Users/percy/PycharmProjects/pythonProject/test_project&quot;
++  }
++}</component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/test_project" />
++    </key>
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/test_project" />
++    </key>
++  </component>
++  <component name="RunManager" selected="Python.percy_test">
++    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
++      <module name="pythonProject" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="percy_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="pythonProject" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_project" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_project/percy_test.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="selection_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="pythonProject" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_project" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_project/selection_sort.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="shell_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="pythonProject" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_project" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_project/shell_sort.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="Python tests for test_crfs.TestCrfs.test_create_crf_from_template" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
++      <module name="pythonProject" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_project" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="_new_additionalArguments" value="&quot;&quot;" />
++      <option name="_new_target" value="&quot;test_crfs.TestCrfs.test_create_crf_from_template&quot;" />
++      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
++      <method v="2" />
++    </configuration>
++    <configuration name="Python tests in percy_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
++      <module name="pythonProject" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_project" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="_new_additionalArguments" value="&quot;&quot;" />
++      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_project/percy_test.py&quot;" />
++      <option name="_new_targetType" value="&quot;PATH&quot;" />
++      <method v="2" />
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Python.percy_test" />
++        <item itemvalue="Python tests.Python tests for test_crfs.TestCrfs.test_create_crf_from_template" />
++        <item itemvalue="Python.shell_sort" />
++        <item itemvalue="Python.selection_sort" />
++        <item itemvalue="Python tests.Python tests in percy_test.py" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="576d144f-e40b-42e5-8da7-ad793800924e" name="Changes" comment="" />
++      <created>1676253064069</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1676253064069</updated>
++    </task>
++    <task id="LOCAL-00001" summary="bubble sort">
++      <created>1717554618419</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1717554618419</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
++    <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="bubble sort" />
++    <option name="LAST_COMMIT_MESSAGE" value="bubble sort" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
++          <url>file://$PROJECT_DIR$/test_project/bubble_sort.py</url>
++          <line>12</line>
++          <option name="timeStamp" value="7" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1715486972608)
++++ b/.idea/misc.xml	(date 1715486972608)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/pythonProject.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/pythonProject.iml b/.idea/pythonProject.iml
+new file mode 100644
+--- /dev/null	(date 1715486972603)
++++ b/.idea/pythonProject.iml	(date 1715486972603)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/venv" />
++    </content>
++    <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1676253172484)
++++ b/.idea/modules.xml	(date 1676253172484)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/.idea/pythonProject.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+new file mode 100644
+--- /dev/null	(date 1676292658219)
++++ b/main.py	(date 1676292658219)
+@@ -0,0 +1,16 @@
++# This is a sample Python script.
++
++# Press ⌃R to execute it or replace it with your code.
++# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
++
++
++def print_hi(name):
++    # Use a breakpoint in the code line below to debug your script.
++    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
++
++
++# Press the green button in the gutter to run the script.
++if __name__ == '__main__':
++    print_hi(name='pp')
++
++# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+Index: test_project/test_crfs.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test_project/test_crfs.py b/test_project/test_crfs.py
+new file mode 100644
+--- /dev/null	(date 1715680674971)
++++ b/test_project/test_crfs.py	(date 1715680674971)
+@@ -0,0 +1,85 @@
++import os
++import string
++
++import pytest
++from shared_test_lib.utils.random_util import RandomUtil
++
++from pytest_yaochn_ui_base.yc_ui_context import YCUIContext
++from tests.collect.collect_base_test import CollectBaseTest
++
++
++class TestCrfs(CollectBaseTest):
++
++    test_data_path = os.path.join(os.path.dirname(__file__), 'gloden_data')
++    protocol_file_path = os.path.join(test_data_path, 'protocol_C0009.xlsx')
++    external_data_path = os.path.join(test_data_path, 'external_data.xlsx')
++
++    download_path = os.path.join(CollectBaseTest.DOWNLOADS_PATH, 'TestCrfs')
++
++    @pytest.fixture(autouse=True, scope='class')
++    def setup_teardown_class(self, predefined_study_crf_ui):
++        cur_study = predefined_study_crf_ui
++        self.YC_CONTEXT.organization(cur_study.organization).study(cur_study).env(self.ENVS.PROD)
++        yield
++
++    @pytest.fixture(scope='function')
++    def setup_study_config(self, yc_ui_context: YCUIContext):
++        self.YC_CONTEXT.user(self.DBD_USER['user']).role(self.DBD_USER['role'])
++        self.page = yc_ui_context.user_page(self.cur_user)
++        self.lab_page = self.pages.LabPage(self.page, self.study, "PROD", self.cur_role)
++        self.study_config_page = self.pages.StudyConfigPage(self.page, self.study, self.cur_role)
++        self.basics_page = self.pages.BasicsPage(self.page, self.study, self.cur_role)
++        self.crf_page = self.pages.CRFPage(self.page, self.study, self.cur_role)
++        yield
++
++    @pytest.fixture(scope='function')
++    def setup_lab_page(self, yc_ui_context: YCUIContext):
++        self.YC_CONTEXT.user(self.CDM_USER['user']).role(self.CDM_USER['role'])
++        self.page = yc_ui_context.user_page(self.cur_user)
++        self.lab_page = self.pages.LabPage(self.page, self.study, "PROD", self.cur_role)
++        yield
++
++    def test_study_info(self, setup_study_config):
++        # set study info
++        self.basics_page.open()
++        self.basics_page.external_lab_config()
++        self.basics_page.external_lab_config(is_enabled=False)
++        self.basics_page.field_path_config()
++        self.basics_page.external_data(external_data_path=self.external_data_path)
++        self.basics_page.crf_object_oid_prefix()
++
++    def test_create_crf_from_template(self, setup_study_config):
++        # set study config
++        self.study_config_page.open()
++        # self.study_config_page.subject_key_config()
++        self.study_config_page.subject_status_config()
++        self.study_config_page.deploy_to_environments(['UAT', "PROD"])
++
++        # set crf
++        self.crf_page.open()
++        self.crf_page.create_crf_from_template(construct_spec=self.protocol_file_path)
++        self.crf_page.crf_copy()
++        self.crf_page.crf_edit()
++        self.crf_page.crf_delete()
++        self.crf_page.crf_detail_page.deploy()
++        self.crf_page.access_first_crf_detail()
++        self.crf_page.crf_detail_page.packed_snapshot()
++        self.crf_page.crf_detail_page.publish()
++        self.crf_page.crf_detail_page.deploy()
++        self.crf_page.crf_detail_page.set_live()
++
++    def test_create_crf_from_blank(self, setup_study_config):
++        # set study config
++        self.study_config_page.open()
++        # self.study_config_page.subject_key_config()
++        self.study_config_page.subject_status_config()
++        self.study_config_page.deploy_to_environments(['UAT', "PROD"])
++
++        # set crf
++        self.crf_page.open()
++        self.crf_page.create_crf_from_template(construct_spec=self.protocol_file_path)
++        self.crf_page.access_first_crf_detail()
++        self.crf_page.crf_detail_page.packed_snapshot()
++        self.crf_page.crf_detail_page.publish()
++        self.crf_page.crf_detail_page.deploy()
++        self.crf_page.crf_detail_page.set_live()
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+new file mode 100644
+--- /dev/null	(date 1676253172417)
++++ b/.idea/inspectionProfiles/Project_Default.xml	(date 1676253172417)
+@@ -0,0 +1,37 @@
++<component name="InspectionProjectProfileManager">
++  <profile version="1.0">
++    <option name="myName" value="Project Default" />
++    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
++      <option name="ourVersions">
++        <value>
++          <list size="2">
++            <item index="0" class="java.lang.String" itemvalue="2.7" />
++            <item index="1" class="java.lang.String" itemvalue="3.11" />
++          </list>
++        </value>
++      </option>
++    </inspection_tool>
++    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
++      <option name="ignoredPackages">
++        <value>
++          <list size="14">
++            <item index="0" class="java.lang.String" itemvalue="pandas" />
++            <item index="1" class="java.lang.String" itemvalue="pymupdf" />
++            <item index="2" class="java.lang.String" itemvalue="filelock" />
++            <item index="3" class="java.lang.String" itemvalue="yaochn-infra-notification-openapi-client" />
++            <item index="4" class="java.lang.String" itemvalue="yaochn-infra-audit-trail-openapi-client" />
++            <item index="5" class="java.lang.String" itemvalue="yaochn-infra-business-directory-openapi-client" />
++            <item index="6" class="java.lang.String" itemvalue="yaochn-infra-auth-hub-openapi-client" />
++            <item index="7" class="java.lang.String" itemvalue="yaochn-infra-content-openapi-client" />
++            <item index="8" class="java.lang.String" itemvalue="yaochn-infra-jetfire-openapi-client" />
++            <item index="9" class="java.lang.String" itemvalue="yaochn-college-confucius-openapi-client" />
++            <item index="10" class="java.lang.String" itemvalue="yaochn-infra-testing-api-lib" />
++            <item index="11" class="java.lang.String" itemvalue="yaochn-compose-bass-openapi-client" />
++            <item index="12" class="java.lang.String" itemvalue="numpy" />
++            <item index="13" class="java.lang.String" itemvalue="yaochn-compose-broker-openapi-client" />
++          </list>
++        </value>
++      </option>
++    </inspection_tool>
++  </profile>
++</component>
+\ No newline at end of file
+Index: test_project/insertion_sort.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test_project/insertion_sort.py b/test_project/insertion_sort.py
+new file mode 100644
+--- /dev/null	(date 1715575437956)
++++ b/test_project/insertion_sort.py	(date 1715575437956)
+@@ -0,0 +1,15 @@
++#  插入排序 时间复杂度O(n^2)，空间复杂度O(1)
++arr = [3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48]
++def insertion_sort(arr):
++    for i in range(len(arr)):
++        cur = arr[i]
++        pre = i-1
++        # 将比 key 大的元素向右移动一位
++        while pre>=0 and arr[pre]>cur:
++            arr[pre+1]=arr[pre]
++            pre-=1
++        # 插入元素到正确位置
++        arr[pre+1]=cur
++    return arr
++if __name__=="__main__":
++    print(insertion_sort(arr))
+\ No newline at end of file
+Index: test_project/shell_sort.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test_project/shell_sort.py b/test_project/shell_sort.py
+new file mode 100644
+--- /dev/null	(date 1715580462473)
++++ b/test_project/shell_sort.py	(date 1715580462473)
+@@ -0,0 +1,22 @@
++#  希尔排序 时间复杂度O(n^2)，空间复杂度O(1)
++def shell_sort(arr):
++    n = len(arr)
++    gap = n // 2  # 初始间隔为数组长度的一半
++
++    while gap > 0:
++        for i in range(gap, n):
++            cur = arr[i]
++            j = i
++            while j >= gap and arr[j - gap] > cur:
++                arr[j] = arr[j - gap]
++                j -= gap
++            arr[j] = cur
++        gap //= 2  # 缩小间隔
++
++    return arr
++
++# 示例用法
++arr = [3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48]
++if __name__ == "__main__":
++    sorted_arr = shell_sort(arr)
++    print(sorted_arr)
+Index: test_project/quick_sort.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test_project/quick_sort.py b/test_project/quick_sort.py
+new file mode 100644
+--- /dev/null	(date 1715576214009)
++++ b/test_project/quick_sort.py	(date 1715576214009)
+@@ -0,0 +1,19 @@
++# 在快速排序中，我们选择一个基准元素，然后将数组分成三部分：小于基准的部分、等于基准的部分和大于基准的部分。
++# 接着对小于和大于基准的部分递归地应用快速排序，最终合并各部分得到排序后的数组。
++# 快速排序的时间复杂度为 O(nlogn)，是一种高效的排序算法。
++def quick_sort(arr):
++    if len(arr) <= 1:
++        return arr
++
++    pivot = arr[len(arr) // 2]  # 选择基准元素
++    left = [x for x in arr if x < pivot]  # 分区：小于基准的元素
++    middle = [x for x in arr if x == pivot]  # 分区：等于基准的元素
++    right = [x for x in arr if x > pivot]  # 分区：大于基准的元素
++
++    return quick_sort(left) + middle + quick_sort(right)
++
++# 示例用法
++arr = [3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48]
++if __name__ == "__main__":
++    sorted_arr = quick_sort(arr)
++    print(sorted_arr)
+Index: test_project/percy_test.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test_project/percy_test.py b/test_project/percy_test.py
+new file mode 100644
+--- /dev/null	(date 1716733238250)
++++ b/test_project/percy_test.py	(date 1716733238250)
+@@ -0,0 +1,12 @@
++arr = [3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48]
++
++def yaochn_test(arr):
++    n=len(arr)
++    for i in range(n):
++        for j in range(0, n-i-1):
++            if arr[j]>arr[j+1]:
++                arr[j], arr[j+1] = arr[j+1], arr[j]
++    return arr
++
++if __name__ == "__main__":
++    print(yaochn_test(arr))
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1716357508477)
++++ b/.idea/vcs.xml	(date 1716357508477)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: test_project/selection_sort.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test_project/selection_sort.py b/test_project/selection_sort.py
+new file mode 100644
+--- /dev/null	(date 1716004435897)
++++ b/test_project/selection_sort.py	(date 1716004435897)
+@@ -0,0 +1,15 @@
++# 选择排序 时间复杂度O(n^2)，空间复杂度O(1)
++arr = [3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48]
++
++def selection_sort(arr):
++    n = len(arr)
++    for i in range(n - 1):
++        min = i
++        for j in range(i + 1, n):
++            if arr[j] < arr[min]:
++                min = j
++        arr[i], arr[min] = arr[min], arr[i]
++    return arr
++
++if __name__ == "__main__":
++    print(selection_sort(arr))
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+diff --git a/test_project/yaochn_test.log b/test_project/yaochn_test.log
+new file mode 100644
